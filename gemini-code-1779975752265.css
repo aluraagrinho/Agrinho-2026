@@ -1,0 +1,74 @@
+/* Configurações Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f9f4;
+    color: #2c3e50;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background: linear-gradient(135deg, #2ecc71, #27ae60);
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Título em fonte média e cores vivas */
+header h1 {
+    font-size: 2.2rem; /* Tamanho médio e equilibrado */
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+/* Layout Principal (Lado a Lado) */
+.container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+/* Seção de Texto (Esquerda) */
+.conteudo {
+    flex: 1;
+    min-width: 300px;
+}
+
+.conteudo h2 {
+    color: #27ae60;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.conteudo p {
+    margin-bottom: 1.2rem;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+/* Botão Vivo e Interativo */
+#btnSaberMais {
+    background-color: #f1c40f; /* Amarelo vivo */
+    color: #2c3e50;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+#btnSaberMais:hover {
+    background-color: #f39c12;
